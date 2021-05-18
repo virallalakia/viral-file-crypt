@@ -1,0 +1,23 @@
+{
+  "name": "viral-file-crypt",
+  "version": "0.1.0",
+  "description": "A very fast, simple and easy to use file encryption/decryption tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test script\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virallalakia/viral-file-crypt.git"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt"
+  ],
+  "author": "Viral Lalakia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virallalakia/viral-file-crypt/issues"
+  },
+  "homepage": "https://github.com/virallalakia/viral-file-crypt#readme"
+}
