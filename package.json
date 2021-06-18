@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint src/js",
     "start": "node src/js/index.js",
+    "test": "mocha 'test/**/*.js' --recursive",
     "debug": "node --inspect-brk=9229 src/js/index.js"
   },
   "repository": {
@@ -23,7 +24,9 @@
   },
   "homepage": "https://github.com/virallalakia/viral-file-crypt#readme",
   "devDependencies": {
-    "eslint": "^7.26.0"
+    "chai": "^4.3.4",
+    "eslint": "^7.26.0",
+    "mocha": "^9.0.0"
   },
   "dependencies": {
     "commander": "^7.2.0"
